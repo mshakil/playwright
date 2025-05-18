@@ -28,5 +28,5 @@ test('Verify that 2 Addition by 4 is 6', async ({ page }) => {
   });
 
 test('Verify that 3 multiply by 3 is 9', async ({ page }) => {
-    await expect(3*3).toEqual(8);
+    await expect(3*3).toEqual(9);
   });
