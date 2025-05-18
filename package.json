@@ -1,0 +1,19 @@
+{
+  "name": "playwright-ts",
+  "version": "1.0.0",
+  "description": "Playwright automation framework",
+  "main": "index.js",
+  "scripts": {
+    "playwright:headed": "npx playwright test /tests/swaglablogin.spec.ts --headed",
+    "playwright:ui": "npx playwright test /tests/swaglablogin.spec.ts --ui"
+  },
+  "keywords": [
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.18"
+  }
+}
