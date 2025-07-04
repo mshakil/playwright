@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "playwright:headed": "npx playwright test /tests/swaglablogin.spec.ts --headed",
-    "playwright:ui": "npx playwright test /tests/swaglablogin.spec.ts --ui"
+    "playwright:ui": "npx playwright test /tests/hooks.spec.ts --headed"
   },
   "keywords": [
     "automation"
